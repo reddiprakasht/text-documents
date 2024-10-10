@@ -1,0 +1,86 @@
+
+
+
+
+
+
+
+Bootstrap:
+==================================================================================
+
+13th June :
+
+------------------------------------------
+
+Grid system :    for this below syntax is the hyrarcy
+
+div class=container
+	div class=row
+		div class=column
+
+
+
+	
+		div(column div)		
+	div(row div)
+div(container div)
+
+
+
+
+14-june :
+==========================================
+
+grid with 6break points
+
+Cards :
+=========================================================================
+
+
+17th June :
+
+====================================
+
+Carousel :---- requires JS code link /it is a class name (called like slides)
+
+Model :
+================================
+
+this is a popup
+
+
+
+18th June :
+================================================================================
+
+
+Spotify
+Wikipedia-about marvel series 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

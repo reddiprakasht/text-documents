@@ -1,0 +1,5 @@
+project-facing-problems :
+
+while i'm putting the images in html I find the gap around the image even I place image-fluid ---so I rectify that
+
+and also text overlaying issue that is I want to overlay my text on the image but it did't when i give text in div that is where the image is present it comes below the image----

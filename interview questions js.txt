@@ -1,0 +1,39 @@
+interview questions: js
+------------------------------------
+
+JavaScript Fundamentals:
+Explain var, let, and const. When would you use each?
+What is hoisting in JavaScript?
+What are closures? Can you provide an example of how they work?
+Explain the difference between == and ===.
+What is the this keyword in JavaScript, and how does it behave in different contexts (like functions or arrow functions)?
+What is the difference between synchronous and asynchronous code?
+Explain promises in JavaScript. How do they differ from callbacks?
+What is event bubbling and event delegation?
+What is the purpose of the bind(), call(), and apply() methods?
+How does JavaScript handle errors, and how can you handle them in your code?
+
+
+JavaScript in the Browser:
+What is the Document Object Model (DOM), and how do you manipulate it with JavaScript?
+What are event listeners in JavaScript? How do you add and remove them?
+What is the difference between localStorage and sessionStorage?
+What are setTimeout and setInterval, and how do they work?
+Explain the difference between a GET and POST request in terms of how they are used in JavaScript (e.g., with fetch).
+
+
+ES6+ Features:
+What are arrow functions, and how are they different from regular functions?
+What is destructuring in JavaScript, and how would you use it with objects and arrays?
+What are template literals?
+Explain the concept of the spread (...) operator and its use cases.
+What is the difference between map(), filter(), and forEach()?
+
+
+Additional Topics:
+What is async/await, and how does it work with promises?
+What is the difference between deep and shallow copying of objects?
+How does JavaScript handle memory management?
+What are JavaScript modules, and how do you import/export them?
+What is debouncing and throttling in JavaScript? Can you give an example of when you would use them?
+

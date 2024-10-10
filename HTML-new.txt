@@ -1,0 +1,822 @@
+ HTML
+Hyper Text Markup Language
+=======================================================================
+Tags are important in HTML
+There are 2 types of tags
+
+1. opening tags
+ex : <title>
+2. closing tags
+ex : </title>
+
+Html file will be closing as .html
+
+we need some platform to use HTML amd also a web
+
+platform like VS code, Edit Plus, notepad+
+and browser like chrome and safari 
+
+some tags:
+------------------------------------------------------------------------
+
+<br> >>>break
+<hr> >>>> horizontal row
+
+
+html web structure
+
+<html>
+</html>
+
+
+
+Attributes :
+---------------------------
+An HTML attribute is a piece of markup language used to adjust the behaviour display of any HTML element.
+For example, attribute can be used to change the color, size, or functionality of the HTML element.
+ 
+
+attributes will be given in opening tag
+ex : <body attribute> </body>
+
+bgcolor attribute ==> bgcolor ="yellow"
+
+
+color attribute :
+----------------------------------
+<html>
+<head>
+<title> attribute ex</title>
+</head>
+<body bgcolor="#1FB0F3">
+
+<hr color="red" size=""30px" width="400" align="left"
+</body>
+
+
+</html>
+
+Headings in html :
+========================================================================
+There are 6 types of tags
+
+<h1>   </h1>
+<h2>   </h2>
+..
+..
+..
+<h6>   </h6>
+
+attribute for headings
+align="left/center/right"
+
+parageraph :
+======================================================================
+<p>  </p>
+
+we use for writing paragraph in this
+
+
+<htm>
+    <head>
+
+        <title>Headings</title>
+    </head>
+
+    <body>
+        <h1 align="center">headings</h1>
+        <h2>headings</h2>
+        <h3>headings</h3>
+        <h4>headings</h4>
+        <h5>headings</h5>
+        <h6>headings</h6>
+
+        <p align="center">
+            Lorem200=
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, voluptates rem aspernatur illum ea aut quasi accusamus officiis ex cumque iusto adipisci in, debitis facilis corporis libero corrupti hic veritatis nisi odio explicabo suscipit sapiente numquam. Voluptas voluptatibus id, esse ut corporis hic aut harum adipisci aliquam repellat dignissimos error assumenda provident sequi itaque mollitia maxime! Doloribus ut, nostrum voluptate quasi libero excepturi quos! Nemo fugit reprehenderit excepturi explicabo accusantium accusamus tenetur quo perspiciatis porro, laborum cumque architecto iusto repudiandae? Deserunt ipsum nihil, minima eveniet amet dicta! Rerum excepturi non iste, repellat harum, doloremque minus dolorum cumque esse quam rem placeat, earum quis facere? Sapiente mollitia sit voluptate rerum laudantium qui necessitatibus repudiandae voluptates eaque distinctio animi assumenda soluta excepturi, amet officia quasi sint cupiditate at atque. Hic adipisci nam sed, atque dolores assumenda perspiciatis quaerat numquam fugiat ratione vitae optio maiores recusandae, inventore aliquid ab dolorem. Blanditiis enim repudiandae obcaecati amet itaque magnam. Nobis accusantium ea quod commodi. Obcaecati, eveniet porro omnis enim ipsa, voluptas iusto modi blanditiis culpa nostrum at alias eaque tempora, possimus explicabo perspiciatis architecto natus laboriosam tenetur! Nulla nam nesciunt, nemo rem ab placeat nostrum ipsa inventore saepe, neque nobis laudantium, qui quisquam dolorem laborum?
+        </p>
+    </body>
+</htm>
+
+=====================================================================================================================
+
+22nd may :
+
+=======================================================================================================================
+
+List items
+-----------------------------
+3 types
+1)order list item
+	<ol> </ol>
+
+2) Unordered list item
+	<ul> </ul>
+3) Description lists
+	<dl> </dl>     ----the <dl> tag defines the description list
+	<dt> </dt>     ----the <dt> tag defines the term (name), and
+	<dd> </dd>     ----the <dd> tag defines each term
+
+
+
+
+  <body>
+        <h1>Example of list items</h1>
+        <ol>
+            <li>html</li>
+            <li>css</li>
+            <li>bootstarp</li>
+            <li>javascript</li>
+        </ol>
+
+        <ol style type="A">
+            <li>html</li>
+            <li>css</li>
+            <li>bootstarp</li>
+            <li>javascript</li>
+        </ol>
+
+        <ol style type="a">
+            <li>html</li>
+            <li>css</li>
+            <li>bootstarp</li>
+            <li>javascript</li>
+        </ol>
+
+        <ol style type="I">
+            <li>html</li>
+            <li>css</li>
+            <li>bootstarp</li>
+            <li>javascript</li>
+        </ol>
+-------------------------------------------------
+        <ul>
+            <li>html</li>
+            <li>CSS</li>
+            <li>bootstarp</li>
+            <li>javascript/li>
+        </ul>
+
+        <ul style type="circle">
+            <li>html</li>
+            <li>CSS</li>
+            <li>bootstarp</li>
+            <li>javascript/li>
+        </ul>
+
+        <ul style type="square">
+            <li>html</li>
+            <li>CSS</li>
+            <li>bootstarp</li>
+            <li>javascript/li>
+        </ul>
+        
+    </body>	
+
+
+OL style type can be A, a, I,
+UL style type can be circle, square. ====for HTML-------if we want different style it can be done with CSS.
+
+----------------------------------------------------------------------------------------------------------------
+
+3) Description lists
+	<dl> </dl> 
+	<dt> </dt>    
+	<dd> </dd> 
+
+
+
+Inserting images :
+===========================================================================================================
+<img> tag  			-----we download the image in the same folder that will help
+<img src="SAVE-WILDLIFE.png">
+
+<body>
+        <h1>images example</h1>
+        <img src="SAVE-WILDLIFE.png" alt="wild life animals" width="950px" border="05px">
+
+    </body>
+
+
+some attributes:
+-------------------------------------
+src
+width
+height
+border
+title
+alt
+
+
+Hyper links :
+===============================================================================
+<a href="htmlpage">link description (or) text</a>
+
+a = ancher
+href = hyper reference
+
+
+Tables :
+===================================================================================
+
+<table> </table>
+<tr> </tr>         ----table row
+<td> </td>         -----table data
+<th> </th>	   ------table head
+
+
+<body>
+
+<table bgcolor="orange" align="center" border="5px" width="600px">
+    <tr>
+        <td>SNO</td>
+        <td>name</td>
+        <td>Email</td>
+        <td>phone</td>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>kiran</td>
+        <td>kiran1@gmail.com</td>
+        <td>4534453452</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>ajay</td>
+        <td>ajay2@gmail.com</td>
+        <td>5374573753</td>
+    </tr>
+</table>
+
+
+
+23rd may:
+==================
+
+colspan  attribute
+rowspan  attribute 
+
+
+FORMS :
+<form> </form>
+<input type= "text/password/checkbox/radio/submit/reset/email/date/file">
+
+<select>
+<option> </option>
+</select>
+
+<textarea> </textarea>
+
+		
+radio : if we want to select only one option then we must use name after radio button otherwise it will select multiple options
+
+
+
+
+24h may :
+===========================================================
+
+place holder attribute
+required 
+autofocus
+
+<iframe> </iframe> ==> Used to 
+
+
+
+<div> </div> ==> division
+
+		<div>First devision </div>
+		<div>second devision </div>
+		<div>third devision </div>
+
+
+
+
+
+
+27th may :
+============================================================
+
+html5 tags :
+<vedio> </vedio>
+<audio> </audio>
+<figcaption> </figcaption>
+<header> </header>
+<footer> </footer>
+<aside> </aside>
+<article> </article>
+<section> </section>
+<nav> </nav>
+
+
+<vedio> :
+
+
+
+we use below tags with the help of CSS
+
+
+header
+footer
+Aside
+Article
+Section
+Nav
+
+
+
+CSS : Cascading Style Sheets -3 is the latest version
+================================================================================
+
+CSS is used for describing the presentation of web page including colors ,layout and fonts. It allows one to adopt the presentation to different types of devices, such as large screens, small screens or printers.
+
+
+CSS saves time : 
+----------------------
+you can write CSS once and then reuse same sheet in multiple HTML pages. you can define a style for each HTML element and apply it to as many web pages an you want
+
+pages load faster :
+---------------------
+if you are using CSS, you do noy  need to write HTML tag attributes every time. just write one CSS rule pf a tag and apply it all the occurrence of that tag.
+
+Easy maintenance :
+-----------------------
+to make a global change, simply change the style, and all elements in all the web pages will be updated automatically.
+
+Superior styles to HTML :
+----------------------------------
+CSS has a much wider array of attributes then html. so you can give a far better look to your html. page in comparion to html attributes.
+
+Multiple Device Compatibility :
+------------------------------------------
+styles sheet allow content to be optimized for more then one type of device. by using the same HTML document, different versions of a website can be presented for handheld devices such as PDAs and cell phones or for printing
+
+Global web Standards :
+-----------------------------------
+Now HTML attributes are being deprecated and it is being recommended to use CSS, so it is a good idea to start using CSS in all the HTML pages to make them compatible to future 
+
+
+
+
+
+
+3 ways of we can apply CSS to web pages :
+-=================================================
+
+
+1. Internal CSS
+2. External CSS
+3. Inline CSS
+
+
+Syntax of CSS :
+
+anatomy of a CSS Rule
+
+
+	selector
+	
+h1 { property value
+	color : orange;
+	text-align: center;
+	} 			decleration = property + value
+ 
+
+Properties :
+
+color : red;
+font-family:ariel
+font-size:1em;
+text-align:left/center/right;
+
+bordr:1px solid/dotted/dashed red;
+bordr-left:1px solid/dotted/dashed red;
+bordr-right:1px solid/dotted/dashed red;
+bordr-bottom:1px solid/dotted/dashed red;
+bordr-top:1px solid/dotted/dashed red;
+
+width:200px;
+height:20px;
+
+font-weight: normal/bold/900;
+font-style: normal/ italic;
+
+
+
+
+background-color:yellow;
+border:1px solid/dotted/dashed red;
+
+
+Comments in CSS are 2 types :
+	1) single line comments		//		
+	2)multi line comments		/* *\
+
+
+
+
+
+
+28th may :
+=====================================================
+List-style-type:none/circlr/square/disc;
+list-style-image:url(pi.jpg)
+
+background-image-url();
+background-repeat:no-repeat/repeat-x/repeat-y;
+background-position:top right/top center;
+backgroundi-size: cover;
+background-attachment: fixed;
+
+
+
+
+margin -----ex. outside of an element (tags)
+padding -----ex. inside of an element (tags)
+
+
+padding: 50px; margin: 15px;
+
+
+Text Decoration: none;             ex :------used for removing the underlines for hyper links
+
+
+
+
+background-image: liear-gradient(red,yellow);
+background-image: liear-gradient(to right, red,yellow);
+background-image: liear-gradient(to left, red,yellow);
+background-image: liear-gradient(45deg, red,yellow);
+background-image: radial-gradient(green, red,yellow);
+background-image: radial-gradient(green 5%, red 10$, yellow 20%);
+
+
+
+
+29th may :--
+========================================================
+divs :
+
+selectors :
+===============================
+
+In CSS, selectors are used to target the HTML elements on our pages that we want to style.
+there are a wide varity of CSS selectors available, allowing for fine-grained precision when selecting elements to style.
+
+syntax
+	selector{
+		property:value
+	}
+
+ex :
+
+1)
+------------------------------------------------
+	h1{
+		color:red;
+	}
+
+
+1) tag/element selector
+
+		h1{
+		color:red;
+	}
+	
+
+2) pseudo selector
+	p,h1,img,a,etc:hover{
+
+	}
+
+3) class selector
+	.txt{
+
+	}
+
+4) ID selector 
+	#Demo{
+
+	}
+
+
+30th may :
+==========================================================================================================
+
+
+
+Cursor:pointer/zoom-in/zoom-out;
+
+Display:none/inline/block/inline-block/flex;	
+	
+opacity:0, 0.1,0.2,.....-1;      (transperency)
+
+
+
+
+Display:inline-block 
+----------------------------
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+
+
+
+2)
+-------------------------------------------------------------
+
+
+ 	a:hover{
+
+        color: yellow;
+        background-color: brown;
+	float:left;
+
+    }
+ 
+
+
+	 b:hover{
+
+        color: yellow;
+        background-color: brown;
+	float:right;
+
+    }
+
+	 c:hover{
+
+        color: yellow;
+        background-color: brown;
+
+    }
+
+
+	if we want to write a footer class then we MUST clear the FLOAT in FOOTER like clear:left;/clear:right;/clear:both;
+
+
+	.footer{
+
+		width:1000px;
+		height:100px;
+		line-height:100px
+		text-align:center;
+		clear:both;
+		
+		}
+
+
+		the above classes will execute only if we call those classes in the inside of the <div >  </div> like
+												
+												<div class="a">
+												<div class="b">
+												<div class="footer">
+
+
+		IN THE ABOVE SELECTR TAGS ARE DIFFERENT FROM EACH <div>  </div>  CLASS THEN WE PUT ALL THE DIV CLASSES IN ONE PLACE CALLED CONTAINER (it will help to 		organise the divs in perfect respected to container dimentions)
+
+	
+
+
+
+	.container{
+
+
+		line-height:
+		float :left;
+		float: right;
+		height: auto;
+		margin : auto;
+
+		}
+
+
+31st may :
+====================================================================================================================
+
+border-radious:30px;
+border-radious:0px 30px;
+border-radious:50%;
+
+
+border-shadow:10px 10px 10px;
+
+transition: property time;
+ transition: border-radious 2s, background-color 2s;
+                transition: all 2s;
+
+
+	overflow: hidden/ scrool/auto;
+
+
+overflow:hidden/scrool/auto;
+transform:rotate()/ scale() / skew();
+transform:scalex() scalex()/rotatex() /rotatey(180deg)/rotatez(180deg);
+transform: scaley/()skewx()/skewy();
+
+
+
+
+
+3rd June: 
+========================================================================================
+
+ID selector:
+-----------------------
+
+Q. why should we use ID selector rather then class selectors ??
+
+
+you should use a class if you need to use the same selector more then once within a page or a site.
+
+while an ID is specific to a single element.
+
+classes can be assigned to multiple elements on a page or throughout website. They are not unique.
+
+
+
+<p id='idname'> </p>
+
+
+
+ #idname (we can use this for only one element --- /we should call only once ----/id should be unique and we use ID for an unique elements)--------------------------
+we use regularly in JAVA SCRIPT
+
+
+
+Universal selector:
+================================================================================================================================================================
+
+*{
+text-align: center;
+color: red;
+}
+
+
+grouping selector :
+========================================
+
+h1, h2, p, h5, h4 ...etc
+
+{
+color:green;
+text-align: center;
+
+}
+
+
+
+
+ 
+pseudoelements :  there is Pseudo element and Pseudo class ( differenced by :: & :)
+
+
+ those h1 , h2 , h3 , p , are referring in html
+
+
+        p::first-line{
+            color: green;
+            font-size: medium;
+        }
+
+        p::first-letter{
+            color: red;
+            font-size: xx-large;
+        }
+
+        h1::after{
+            content: "@@@@";
+        }
+
+        h1::before{
+            content: "@@@@";
+        }
+
+
+
+
+
+
+The ::marker Pseudo-element:The :: marker Pseudo-element selects the markers of list items.
+
+	::marker{                  -----------this marker refers to list items style-type like (A ,B ,C ,D  / 1, 2, 3, 4 / I, II, III, IV)
+		color:red;
+		}
+		
+
+The :: selection Pseudo-element 
+The :: selection
+
+
+pseudo class :
+=============================================================================================================================================================
+
+first-child :
+-------------------------
+ the first-child Pseudo-class matches a specified element that is the first child of another element.
+
+the:first-child Pseudo-class
+
+p: first-child {
+		background-color : yellow ;
+		}
+
+
+:last child :
+
+	{
+	background-color: yellow;
+
+
+	}
+
+		
+
+
+		Position :
+==================================================================================
+
+	position: relative/absolute /fixed / sticky/ static ;
+	top :30px;
+	bottopm:30px;
+	left:30px;
+	right:30px;
+
+
+
+	Inline CSS,
+----------------------------------------
+			<h3 style=color:red;> </h3>
+			
+
+
+10th JUNE :
+================================================================================== frameworks --->framework is a readymate thing to simplify the work or application.
+
+Bootstrap --- bootstrap is a framework of css, This is an external CSS 
+
+www.getbootstrap.com
+
+
+text-color classes
+
+
+
+
+
+
+11th June :
+================================================
+
+img-fluid
+img-thumbnail
+round
+float-start
+float-end
+mx-auto d-block
+
+
+form control 
+=============================================================
+
+
+
+table :
+==============================
+table
+table-primary/danger
+table-stripper
+table-hover
+
+
+list :
+===================================
+	list-group
+	list-group-item
+
+badge :
+=====================================
+badge
+
+
+
+12th June 
+===============================
+cards
+
+navs
+	nav
+	nav-item
+	nav-link
+
+navbar
+
+
+collapse :
+
+=========================================
+data-bs-target="#id"
+data-bs-toggle"collapse"

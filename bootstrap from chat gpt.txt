@@ -1,0 +1,9 @@
+bootstrap from chat gpt:
+
+=======================================
+
+fixed top ----
+
+if we want to fix the menu-bar or navbar or something else we need to give this to them like <nav class=fixed-top>
+----------------------
+

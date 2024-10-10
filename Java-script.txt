@@ -1,0 +1,31 @@
+18th June :
+=========================================================================================
+				
+					JAVASCRIPT:
+--------------------------------------------------------------------------------------
+
+
+JavaScript is a scripting language used to develop web pages. Developed in Netscape, JS allows developers to create a dynamic and interactive web page to interact with visitors and execute complex actions.
+
+	JavaScript is used for 
+		Dynamic web apps
+		interactive web apps
+		and validations
+			
+				----clint side  
+				----
+
+
+<body>
+    <h1>JavaScript</h1>
+
+    <script>
+       
+        document.write('<h1 style="text-align:center;">Javascript is Dynamic </h1>')
+
+        // double quatation inside single quatation or vise versa
+
+        document.write("<h1 style='text-align:center;'>Javascript is Dynamic </h1>")
+    </script>
+    
+</body>
