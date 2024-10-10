@@ -67,3 +67,42 @@ Strings: strings can be either literal string or expression with VARCHAR or CHAR
 Expressions : Expressions are formed from several elements, like constants, SQL operators, column names, and subqueries,
 
 Null value: use NULL , which helps you to specify a value that is unknown, missing , or not applicable
+
+
+day 10/10/2024:
+=======================
+
+SQL indexing:
+
+----------------
+The CREATE index statement is used to create indexes in table.
+Indexes are used to retrieve data from the database more quickly than otherwise.
+The users cannot see the indexes, they are just to speed up searches/queries
+
+CREATE INDEX idx_lastname
+ON Person (LastNAme);
+
+Show INDEX FROM table_name;
+
+DROP index table.name_name; ==>sql
+
+or
+ALter Table table_name DROP INDEX index_name; ==> MySQL
+
+
+
+USer-Creation:
+--------------
+
+CREATE USER 'sammy'@'localhost' IDENTIFIED BY 'abcd1234';
+
+
+Show users
+Select user from MySQL.user;
+
+Grant:
+--------------------------
+
+Grant gives a particular user access to database objects such as tables, views or the database itself. The below example would give CREATE, DROP, INSERT, UPDATE, DELETE and SELECT access on the customers table to a user named "sammy".
+
+GRANT CREATE, DROP, INSERT, UPDATE, DELETE, SELECT  on *.* TO 'sammy'@'localhost' with the help of GRANT option.
