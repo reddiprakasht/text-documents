@@ -1,1 +1,110 @@
 Java :
+Method overlaying:
+
+In Java, method overlaying occurs when a subclass (child class ) has the same method as the parent class. In other words, method overlaying occurs when a subclass provides a particular implementation of the method declared by one of its parent classes.
+
+
+What is overridden vs overriding method?
+Method overriding refers to redefining a method in a subclass that already exits in the superclass. When you call an overridden method using an object of the subclass type, java uses the method's implementation in the subclass rather then the one in the superclass.
+
+
+
+Constructor :
+--------------------
+
+Constructor is a block of code
+it will be created while creating an object
+
+or
+
+A constructor is a block of codes similar to the method. It is called when  an instance (object) of the class created.
+
+class ClassName{
+	ClassName() {  //creating a constructor
+}
+}
+
+There are a total of three rules defines for creating a constructor,
+	1. The constructor's and class's names must be identical
+	2. you cannot define an explicit value to a constructor
+	3. A constructor cannot be any of these: static, synchronised, abstract, or final
+
+
+	default (implicit) constructor
+	user defines (explicit) constructor
+	parameterized constructor
+
+
+Final Keyword:
+--------------------------
+
+The final method in java is used as a non-accesss modifier applicable only to a variable. a method , or a class. it is 
+
+there is three methods
+
+1.variable
+2. MEthod
+3.class
+
+Final variable :
+	When a variable is declared asfinal, its value cannot be changed once it has been initialized. this is useful for declaring be change
+
+
+11/10/2024
+
+===========================================
+
+Data hiding:
+=====================
+
+Data hiding is a programming technique in java that restricts access to  a class or module's data from outside the class or module.
+
+IT is used for security
+
+ex :
+email, bank account
+	
+	class Datahide{
+		private int x=100; //data hiding
+}
+
+
+
+Abstraction:
+----------------------------
+Abstraction in java is a fundamental concept in object-oriented programming that hides the implementation details of code and only expose the necessary information to the user. This process helps to simplify complex systems and make them easier to understand and manage.
+
+abstract class Car{
+	abstract public void fueltype();
+	public void color(){
+
+
+
+}
+}
+
+Abstraction:
+-----------------------------------\\
+IN java abstract is a non-access modifier in java. it is applicable for classes, and methods but not for variables.
+
+in java the abstract keyword is used to define abstract classes and methods, here are some of its key characteristics
+
+Abstract classes cannot be instantiated
+
+abstract methods do not have a body:
+
+AN abstract method is a method that does not have an implementation. IT is declared using the abstraction keyword and ends with a semicolon instead f method body({method body}). subclasses of an abstract class must provide a concrete implementation of all abstract methods define in the parent class
+
+encapsulation
+===========================================
+
+encapsulation =data hiding + abstraction
+
+The meaning of encapsulation id to make sure that "sensitive " data is hidden from users. to achieve this, you must:
+
+.. Declare class variables/attributes as private
+.. provide public get and set methods to access and update the value of a private variables
+
+by using getters and setters , the class can enforce its own data validation rules and ensure that its internal state remains consistent.
+
+The get method returns the variable value, and the set method sets the value.
