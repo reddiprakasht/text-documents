@@ -1,0 +1,104 @@
+GitHub:
+=======================
+GitHub is a web-based platform for version control and collaboration, primarily used for software development. It uses Git, a version control system, to help developers track changes in their code over time, collaborate on projects, and manage different versions of their software.
+
+so we just remember it is a online storage platform and it is a medium for two or many local machines (our laptos) for exchange their code.
+
+we first create a GitHub account.
+
+and configure our git bash.
+
+
+
+configuration our GitBash :
+
+first we need to set our user.name and user.email  so then GitHub knows who's trying to push and pull the code.
+
+for that :
+----------------------------
+
+git config --global user.name "nranjan"
+
+git config --global user.email "abc@gmail.com
+
+
+
+in VS Code :
+
+some important Linux commands with GitHub. 
+
+--------------------------------------------------
+
+git clone our GitHub repository path
+
+git status 
+
+git remote add origin https://github.com/username/repo.git
+
+git remote set-url https://github.com/username/repo.git   (if we want to reset the existing path of the repository)
+
+git remote -v    (check the remote repository path)
+
+
+
+now write the code. create some files. 
+
+
+now we have to save this to our git repository that we just created. 
+
+it involves 3 steps:
+
+git add .
+
+( when we use git add . this is called stagging area it shows all changes that we have done in current repository )
+
+git commit -m "our message for what we change in our code"
+
+git push
+
+
+git log
+
+git log --oneline  (it is about commit ID)
+
+
+
+((
+
+git fetch
+
+git pull
+
+git branch 
+
+git branch checkout
+
+git merge
+
+))
+
+
+basic Linux commands 
+
+
+cd   (going forward to folder)
+cd .. (back to previous command)
+
+dir (it will show what are the files that are present in the present folder)
+
+mkdir (make directory that is a folder)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
